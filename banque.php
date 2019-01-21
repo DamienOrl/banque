@@ -14,11 +14,11 @@ $utilisateur=$_SESSION['utilisateur'];
 ////////////////////////////////////////////
 //BEFORE USE SITE RUN banque.sql
 ////////////////////////////////////////////
-$database_host = '%dbhost%';
+$database_host = 'wargame_db';
 $database_port = '3306';
-$database_dbname = '%dbname%';
-$database_user = '%dbuser%';
-$database_password = '%dbpass%';
+$database_dbname = 'enbdh786';
+$database_user = 'enbdh786';
+$database_password = 'jekdhapofi';
 $database_charset = 'UTF8';
 $database_options = [ 
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
