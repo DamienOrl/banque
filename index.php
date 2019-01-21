@@ -27,7 +27,7 @@ else
 		echo "<ul>";
 		while($message=$query->fetch())
 		{
-			echo '<li>'.$message['nom'].' : '.$message['contenu'].'</li>';
+			echo htmlspecialcharacters('<li>'.$message['nom'].' : '.$message['contenu'].'</li>');
 		}
 		echo "</ul>";
 	}
